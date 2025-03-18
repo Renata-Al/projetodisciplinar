@@ -1,0 +1,34 @@
+.main-containe{
+    max-width: 1000px;
+    padding: 8px;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+    height: 590px;
+}
+.containe{
+    background-color: #f9f9f9;
+}
+.main-containe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 130px;
+    padding: 20px;
+    border: 2px solid gray;
+    border: 10px; 
+}
+.main-containe form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.main-containe label{
+    margin: 8px;
+}
+.main-containe input, .main-containe select, .main-containe textarea{
+    width: 34%;
+    padding: 8px;
+    border:  1px solid #ccc;
+}

@@ -1,0 +1,42 @@
+.app-container{
+    display: flex;
+    height: 100vh;
+}
+.content{
+    flex-grow: 1;
+    padding: 20px;
+    
+}
+.sidebar{
+    width: 200px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-top: 3px solid rgb(224, 16, 16);
+    border-right: 3px solid #2f9e41;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menu-item{
+    color: #333;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+
+}
+.sub-menu{
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin-top: 10px;
+}
+.sub-menu a{
+    padding: 5px 0;
+    text-decoration: none;
+    color: #333;
+}
+.sub-menu a:hover{
+    background-color: #f9f9f9c2;
+}

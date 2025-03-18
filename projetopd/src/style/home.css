@@ -1,0 +1,34 @@
+.main-container{
+    max-width: 1000px;
+    padding: 8px;
+    background-color: #f9f9f9;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 130px;
+    padding: 20px;
+    border: 2px solid gray;
+    border: 10px;
+}
+.container{
+    background-color: #f9f9f9;
+}
+.pesquisa{
+    border: 3px solid #333;
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+    background-color: rgba(128, 128, 128, 0.425);
+    font-family: Jura;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.titulo{
+    margin-bottom: -8px;
+}
+.sub-titulo{
+    margin-left: 20px;
+    color:  rgba(63, 62, 62, 0.603);
+}
