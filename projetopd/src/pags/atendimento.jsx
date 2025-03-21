@@ -3,7 +3,7 @@ import '../style/atendimento.css'
 
 const Atendimento=()=>{
     return(
-        <div className="main-containe">
+        <div className="main-cont">
             <form>
         <div className="containe">
             <h3 className="titulo">Atendimento ao Discente</h3>
@@ -22,10 +22,15 @@ const Atendimento=()=>{
                 </select>
             </label>
             <label>Data:<input type="date"></input></label>
+            <label>Evidências:<input type="file"></input></label>
             <label>Motivo:<textarea required></textarea></label>
             <label>Descrição da Ocorrência:<textarea required></textarea></label>
-            <label><input type="file"></input></label>
-            <button type="submit">Salvar</button>
+            
+            <div class="button-container"> 
+                    <button type="submit">Salvar</button>
+                    <button type="submit">Alterar</button>
+                    <button type="submit">Cancelar</button>
+                </div>
         </div>
         </form>
     </div>

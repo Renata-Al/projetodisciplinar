@@ -15,13 +15,11 @@ const Dropdown = () => {
 
   return (
     <div className="sidebar">
-      <div className="menu-item" onMouseEnter={() => Menu("home")} onMouseLeave={CloseMenu}>
-        Home
-        {abrirmenu === "home" && (
-          <div className="sub-menu">
-            <Link to="/" onClick={CloseMenu}>Menu Principal</Link>
-          </div>
-        )}
+      {/* Link para o menu principal */}
+      <div className="menu-item">
+        <Link to="/" onClick={CloseMenu}>
+          Home
+        </Link>
       </div>
       {/* início consulta */}
       <div className="menu-item" onMouseEnter={() => Menu("ocorrencias")} onMouseLeave={CloseMenu}>
@@ -30,30 +28,27 @@ const Dropdown = () => {
           <div className="sub-menu">
             <Link to="/Disciplinar" onClick={CloseMenu}>Ocorrência Disciplinar</Link>
             <Link to="/Ocorrencia" onClick={CloseMenu}>Registro de Ocorrência</Link>
+            <Link to="/Atendimento" onClick={CloseMenu}>Atendimento ao Discente</Link>
           </div>
         )}
       </div>
       {/* fim consulta */}
       {/* início atendimento */}
-      <div className="menu-item" onMouseEnter={() => Menu("atendimento")} onMouseLeave={CloseMenu}>
-        Atendimento
-        {abrirmenu === "atendimento" && (
+      <div className="menu-item" onMouseEnter={() => Menu("gerenciar")} onMouseLeave={CloseMenu}>
+        Gerenciar
+        {abrirmenu === "gerenciar" && (
           <div className="sub-menu">
-            <Link to="/Atendimento" onClick={CloseMenu}>Atendimento ao Discente</Link>
+            <Link to="/Gerenciar" onClick={CloseMenu}>Cadastro do Agente</Link>
           </div>
         )}
       </div>
       {/* fim atendimento */}
-      {/* início ajuda */}
-      <div className="menu-item" onMouseEnter={() => Menu("ajuda")} onMouseLeave={CloseMenu}>
-        Ajuda
-        {abrirmenu === "ajuda" && (
-          <div className="sub-menu">
-            <Link to="/Ajuda" onClick={CloseMenu}>Central de Ajuda</Link>
-          </div>
-        )}
-      </div>
       {/* fim ajuda */}
+      <div className="menu-item">
+        <Link to="/Ajuda" onClick={CloseMenu}>
+          Sobre
+        </Link>
+      </div>
     </div>
   ); // fim return
 };

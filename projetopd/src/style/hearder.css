@@ -1,16 +1,31 @@
-.nav-bar{
+.nav{
+    background-color: #41A24D;
+    padding: 10px;
     display: flex;
-    background-color: #f9f9f9;
-    border-bottom: 3px solid #2f9e41;
+    margin-bottom: 5px;
+    border-bottom: 3px solid #f8f8f8;
+}
+.nav h4{
+    color: #1E1E1E;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.nav-bar{
+    background-color: #41A24D;
+    color: #f8f8f8;
+    display: flex;
     justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
+    align-items: center;
+    width: 100%;
 }
 .nav-bar h2{
-    margin-left: -860px;
+    font-size: 24px;
+    font-weight: bold;
 }
-.logo{
-    padding-top: 10px;
-    width: 50px;
-    height: 40px;
+.nav .logo{
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 60px;
 }

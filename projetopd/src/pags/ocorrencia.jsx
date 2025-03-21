@@ -3,7 +3,7 @@ import '../style/ocorrencia.css'
 
 const Ocorrencia=()=>{
     return(
-        <div className="main-containe">
+        <div className="main-conta">
             <form>
         <div className="containe">
             <h3 className="titulo">Registro de Ocorrência</h3>
@@ -19,7 +19,7 @@ const Ocorrencia=()=>{
             </label>
             <label>Data:<input type="date"></input></label>
             <label>Data da Ocorrência:<input type="date" required></input></label>
-            <label>Local da Ocorrência:
+            <label className="full-width">Local da Ocorrência:
             <select name="local" required>
                     <option value="">Selecione</option>
                     <option value="dentro">Sala de Aula</option>
@@ -29,8 +29,12 @@ const Ocorrencia=()=>{
             </label>
             <label>Envolvidos na Ocorrência:<textarea required></textarea></label>
             <label>Relato da Ocorrência:<textarea required></textarea></label>
-            <label><input type="file"></input></label>
+            <label className="full-width">Evidências:<input type="file"></input></label>
+            <div class="button-container"> 
             <button type="submit">Salvar</button>
+            <button type="submit">Alterar</button>
+            <button type="submit">Cancelar</button>
+            </div>
         </div>
         </form>
     </div>
