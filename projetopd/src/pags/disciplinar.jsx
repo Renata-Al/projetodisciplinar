@@ -21,7 +21,7 @@ const Disciplinar=()=>{
                     </select>
                 </label>
                 
-                <label>Data:<input type="date"></input></label>
+                <label>Data do Registro:<input type="date"></input></label>
                 <label>Data da Ocorrência:<input type="date" required></input></label>
                 <label>Hora:<input type="time"></input></label>
                 

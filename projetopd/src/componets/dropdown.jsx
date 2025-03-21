@@ -23,7 +23,7 @@ const Dropdown = () => {
       </div>
       {/* início consulta */}
       <div className="menu-item" onMouseEnter={() => Menu("ocorrencias")} onMouseLeave={CloseMenu}>
-        Ocorrências
+        Ações da CAE
         {abrirmenu === "ocorrencias" && (
           <div className="sub-menu">
             <Link to="/Disciplinar" onClick={CloseMenu}>Ocorrência Disciplinar</Link>
