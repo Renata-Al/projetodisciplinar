@@ -1,9 +1,13 @@
 .nav{
-    background-color: #41A24D;
+    background-color: #f8f8f8;
     padding: 10px;
     display: flex;
     margin-bottom: 5px;
-    border-bottom: 3px solid #f8f8f8;
+    border-bottom: 5px solid #41A24D;
+    position: fixed; /* Fixa o hearder */
+    top:0; 
+    z-index: 1000;
+    width: 100%;
 }
 .nav h4{
     color: #1E1E1E;
@@ -11,9 +15,13 @@
     align-items: center;
     margin: 10px;
 }
+.above{
+    color: #41A24D;
+    font-size: 15px;
+}
 .nav-bar{
-    background-color: #41A24D;
-    color: #f8f8f8;
+    background-color: #f8f8f8;
+    color: #1E1E1E;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,6 +34,6 @@
 .nav .logo{
     display: flex;
     align-items: center;
-    width: 60px;
-    height: 60px;
+    width: auto;
+    height: 50px;
 }

@@ -6,7 +6,7 @@
     padding: 20px;
     border:  1px solid #ccc;
     border-radius: 9px;
-    max-width: 800px;
+    max-width: 1200px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     background-color: #f9f9f9;
 }
@@ -15,11 +15,20 @@
     grid-template-columns: repeat(2, 1fr); /* duas colunas*/
     gap: 15px; /* espaço campos */
 }
+form{
+    width: 100%;
+}
+hr{
+    grid-column: span 2; /*  linha quu ocupa duas colunas */
+    border: none;
+    border-top: 1px solid #d9d9d9;
+    margin: 10px 0;
+}
 
 .titulo {
     grid-column: span 2; /* título que ocupa duas colunas */
     text-align: center;
-    color: #333;
+    color: #325c32;
     margin-bottom: 10px;
 }
 

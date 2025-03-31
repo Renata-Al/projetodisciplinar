@@ -11,18 +11,25 @@ const Atendimento=()=>{
             <label>Discente:<input type="text" required></input></label>
             <label>
                 Turma:
-                <select name="curso" required>
+                <select name="turma" required>
                     <option value="">Selecione</option>
                     <option value="1anoADM">1º ADM</option>
                     <option value="2anoADM">2º ADM </option>
                     <option value="1anoINFO">1º INFO</option>
                     <option value="2anoINFO">2º INFO</option>
-                    <option value="3anoINFO">3º INFO</option>
-                    
+                    <option value="3anoINFO">3º INFO</option>  
                 </select>
             </label>
-            <label>Data:<input type="date"></input></label>
-            <label>Evidências:<input type="file"></input></label>
+            <label>Data do Atendimento:<input type="date"></input></label>
+            <label>
+                    Despacho CAE:
+                    <select name="despacho" required>
+                        <option value="">Selecione</option>
+                        <option value="nue">NUE</option>
+                        <option value="comissao">Comissão Disciplinar</option>
+                    </select>
+                </label>
+            <label className="full-width">Evidências:<input type="file"></input></label>
             <label>Motivo:<textarea required></textarea></label>
             <label>Descrição da Ocorrência:<textarea required></textarea></label>
             

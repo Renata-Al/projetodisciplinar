@@ -5,7 +5,7 @@ const Disciplinar=()=>{
     return(
         <div className="main-contai">
         <form>
-            <div className="containe">
+            <div className="containerr">
                 <h3 className="titulo">Registro de Ocorrência Disciplinar</h3>
                 <hr color="#d9d9d9" height="1px"></hr>
                 
@@ -25,7 +25,7 @@ const Disciplinar=()=>{
                 <label>Data da Ocorrência:<input type="date" required></input></label>
                 <label>Hora:<input type="time"></input></label>
                 
-                <label class="full-width">
+                <label>
                     Local da Ocorrência:
                     <select name="local" required>
                         <option value="">Selecione</option>
@@ -35,11 +35,11 @@ const Disciplinar=()=>{
                     </select>
                 </label>
                 
-                <label class="full-width"> 
+                <label> 
                     Atitudes Inadequadas do Aluno:<textarea></textarea>
                 </label>
                 
-                <label class="full-width"> 
+                <label> 
                     Envolvidos na Ocorrência:<textarea required></textarea>
                 </label>
                 
@@ -47,7 +47,7 @@ const Disciplinar=()=>{
                     Relato da Ocorrência:<textarea required></textarea>
                 </label>
                 
-                <label class="full-width"> 
+                <label> 
                 Evidências:<input type="file"></input>
                 </label>
                 
@@ -55,7 +55,7 @@ const Disciplinar=()=>{
                 
                 <label class="full-width">
                     Despacho CAE:
-                    <select name="local" required>
+                    <select name="despacho" required>
                         <option value="">Selecione</option>
                         <option value="nue">NUE</option>
                         <option value="comissao">Comissão Disciplinar</option>
@@ -63,7 +63,7 @@ const Disciplinar=()=>{
                 </label>
                 
                 <label class="full-width">
-                    Observações:<input type="text"></input>
+                    Observações:<textarea></textarea>
                 </label>
                 
                 <div class="button-container"> 

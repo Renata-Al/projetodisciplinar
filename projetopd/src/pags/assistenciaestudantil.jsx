@@ -1,7 +1,8 @@
 import React from "react";
-import '../style/gerenciar.css'
+import '../style/assistenciaestudantil.css'
 
-const Gerenciar=()=>{
+
+const QuestionarioEtd=()=>{
     return(
         <div>
             <h1>Cadastro Cae</h1>
@@ -10,4 +11,4 @@ const Gerenciar=()=>{
     );
 };
 
-export default Gerenciar;
+export default QuestionarioEtd;

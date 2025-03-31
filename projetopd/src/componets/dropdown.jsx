@@ -21,19 +21,32 @@ const Dropdown = () => {
           Home
         </Link>
       </div>
-      {/* início consulta */}
-      <div className="menu-item" onMouseEnter={() => Menu("ocorrencias")} onMouseLeave={CloseMenu}>
+      {/* início acoes cae */}
+      <div className="menu-item" onMouseEnter={() => Menu("acoes")} onMouseLeave={CloseMenu}>
         Ações da CAE
-        {abrirmenu === "ocorrencias" && (
+        {abrirmenu === "acoes" && (
           <div className="sub-menu">
-            <Link to="/Disciplinar" onClick={CloseMenu}>Ocorrência Disciplinar</Link>
-            <Link to="/Ocorrencia" onClick={CloseMenu}>Registro de Ocorrência</Link>
             <Link to="/Atendimento" onClick={CloseMenu}>Atendimento ao Discente</Link>
+            <Link to="/Ocorrencia" onClick={CloseMenu}>Busca Ativa</Link>
+            <Link to="/Ocorrencia" onClick={CloseMenu}>Justificativa</Link>
+            <Link to="/Disciplinar" onClick={CloseMenu}>Registro de Ocorrência</Link>
+            <Link to="/Ocorrencia" onClick={CloseMenu}>Solicitações e Dúvidas</Link>   
           </div>
         )}
       </div>
-      {/* fim consulta */}
-      {/* início atendimento */}
+      {/* fim acoes cae */}
+      {/* início assistencia */}
+      <div className="menu-item" onMouseEnter={() => Menu("assistencia")} onMouseLeave={CloseMenu}>
+        Assistência ao Discente
+        {abrirmenu === "assistencia" && (
+          <div className="sub-menu">
+            <Link to="/Atendimento" onClick={CloseMenu}>Questionário Socioeconômico</Link>         
+          </div>
+        )}
+         {/* fim assistencia*/}
+      </div>
+       {/* início consulta */}
+      {/* início gerenciar */}
       <div className="menu-item" onMouseEnter={() => Menu("gerenciar")} onMouseLeave={CloseMenu}>
         Gerenciar
         {abrirmenu === "gerenciar" && (
@@ -42,13 +55,14 @@ const Dropdown = () => {
           </div>
         )}
       </div>
-      {/* fim atendimento */}
-      {/* fim ajuda */}
+      {/* fim gerenciar*/}
+       {/* início sobre */}
       <div className="menu-item">
-        <Link to="/Ajuda" onClick={CloseMenu}>
+        <Link to="/Sobre" onClick={CloseMenu}>
           Sobre
         </Link>
       </div>
+       {/*fimm sobre */}
     </div>
   ); // fim return
 };

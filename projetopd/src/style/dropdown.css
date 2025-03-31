@@ -1,6 +1,10 @@
+#main-box{
+    display: flex;
+    flex-direction: column;
+}
 .app-container{
     display: flex;
-    height: 100vh;
+    margin-top: 80px;
 }
 .content{
     flex-grow: 1;
@@ -11,7 +15,7 @@
     width: 240px;
     background-color:#41A24D;
     color: #1E1E1E;
-    height: 70vh;
+    height: 80vh;
     padding: 10px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
