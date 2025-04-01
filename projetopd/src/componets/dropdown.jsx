@@ -27,10 +27,10 @@ const Dropdown = () => {
         {abrirmenu === "acoes" && (
           <div className="sub-menu">
             <Link to="/Atendimento" onClick={CloseMenu}>Atendimento ao Discente</Link>
-            <Link to="/Ocorrencia" onClick={CloseMenu}>Busca Ativa</Link>
+            <Link to="/BuscaAtiva" onClick={CloseMenu}>Busca Ativa</Link>
             <Link to="/Ocorrencia" onClick={CloseMenu}>Justificativa</Link>
             <Link to="/Disciplinar" onClick={CloseMenu}>Registro de Ocorrência</Link>
-            <Link to="/Ocorrencia" onClick={CloseMenu}>Solicitações e Dúvidas</Link>   
+            <Link to="/Solicitacoes" onClick={CloseMenu}>Solicitações e Dúvidas</Link>  
           </div>
         )}
       </div>
@@ -40,7 +40,7 @@ const Dropdown = () => {
         Assistência ao Discente
         {abrirmenu === "assistencia" && (
           <div className="sub-menu">
-            <Link to="/Atendimento" onClick={CloseMenu}>Questionário Socioeconômico</Link>         
+            <Link to="/Assistencia" onClick={CloseMenu}>Questionário Socioeconômico</Link>         
           </div>
         )}
          {/* fim assistencia*/}

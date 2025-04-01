@@ -10,7 +10,15 @@
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     background-color: #f9f9f9;
 }
-.containe{
+
+.form-group {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .containe{
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* duas colunas*/
     gap: 15px; /* espaço campos */
@@ -45,6 +53,7 @@ label {
 input[type="text"],
 input[type="date"],
 input[type="time"],
+input[type="number"],
 select,
 textarea {
     padding: 8px;
@@ -77,19 +86,8 @@ button {
 }
 
 
-/* ajustes pra campos que ocupam duas colunas (sozinhos*/
-.full-width {
-    grid-column: span 2; 
+
+#btnvv {
+    padding: 15px;
+    background-color: #325c32;
 }
-
-/* alinhados à direita*/
-.button-container {
-    grid-column: span 2;
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-    margin-top: 10px;
-}
-
-
-

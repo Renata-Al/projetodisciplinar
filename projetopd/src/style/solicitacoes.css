@@ -6,7 +6,7 @@
     padding: 20px;
     border:  1px solid #ccc;
     border-radius: 9px;
-    max-width: 1200px;
+    max-width: 800px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     background-color: #f9f9f9;
 }
@@ -15,20 +15,11 @@
     grid-template-columns: repeat(2, 1fr); /* duas colunas*/
     gap: 15px; /* espaço campos */
 }
-form{
-    width: 100%;
-}
-hr{
-    grid-column: span 2; /*  linha quu ocupa duas colunas */
-    border: none;
-    border-top: 1px solid #d9d9d9;
-    margin: 10px 0;
-}
 
 .titulo {
     grid-column: span 2; /* título que ocupa duas colunas */
     text-align: center;
-    color: #325c32;
+    color: #333;
     margin-bottom: 10px;
 }
 
@@ -75,7 +66,21 @@ button {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+button[type="submit"] {
+    background-color: #28a745;
+}
 
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+button[type="submit"]:last-of-type {
+    background-color: #dc3545;
+}
+
+button[type="submit"]:last-of-type:hover {
+    background-color: #c82333;
+}
 
 /* ajustes pra campos que ocupam duas colunas (sozinhos*/
 .full-width {
@@ -90,6 +95,3 @@ button {
     gap: 10px;
     margin-top: 10px;
 }
-
-
-

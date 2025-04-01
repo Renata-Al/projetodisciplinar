@@ -15,7 +15,7 @@
     width: 100%;
  }
  .main-contai::-webkit-scrollbar {
-    display: none; /*Chrome e Edge */
+    display: none; /*apararece no Chrome e Edge */
   }
 .containerr{
     display: grid;
@@ -83,21 +83,7 @@ button {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-button[type="submit"] {
-    background-color: #28a745;
-}
 
-button[type="submit"]:hover {
-    background-color: #218838;
-}
-
-button[type="submit"]:last-of-type {
-    background-color: #dc3545;
-}
-
-button[type="submit"]:last-of-type:hover {
-    background-color: #c82333;
-}
 
 /* ajustes pra campos que ocupam duas colunas (sozinhos*/
 .full-width {

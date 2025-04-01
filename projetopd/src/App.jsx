@@ -11,8 +11,10 @@ const Ocorrencia = lazy(()=>import('./pags/ocorrencia'))
 const Disciplinar = lazy(()=>import('./pags/disciplinar'))
 const Sobre = lazy(()=>import('./pags/sobre'))
 const Atendimento = lazy(()=>import('./pags/atendimento'))
+const Solicitacoes = lazy(()=>import('./pags/solicitacoes'))
+const BuscaAtiva = lazy(()=>import('./pags/buscaativa'))
 const Gerenciar = lazy(()=>import('./pags/gerenciar'))
-const Assistenciaestudantil  = lazy(()=>import('./pags/gerenciar'))
+const Assistencia  = lazy(()=>import('./pags/assistencia'))
 
 const App=()=>(
     <>
@@ -28,7 +30,11 @@ const App=()=>(
             <Route path="/Disciplinar" element={<Disciplinar/>}/>
             <Route path="/Sobre" element={<Sobre/>}/>
             <Route path="/Atendimento" element={<Atendimento/>}/>
+            <Route path="/Solicitacoes" element={<Solicitacoes/>}/>
+            <Route path="/BuscaAtiva" element={<BuscaAtiva/>}/>
             <Route path="/Gerenciar" element={<Gerenciar/>}/>
+            <Route path="/Assistencia" element={<Assistencia/>}/>
+
             </Routes>
         </Suspense>
         </div>
