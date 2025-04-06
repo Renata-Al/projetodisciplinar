@@ -1,4 +1,4 @@
-.main-cont{
+.Container-principal{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,11 +15,11 @@
     grid-template-columns: repeat(2, 1fr); /* duas colunas*/
     gap: 15px; /* espaço campos */
 }
-.form-alt{
-    max-width: 800px;
-}
 form{
     width: 100%;
+}
+.form-alt{
+    max-width: 800px;
 }
 hr{
     grid-column: span 2; /*  linha quu ocupa duas colunas */
@@ -78,7 +78,14 @@ button {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
+.div-mid{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#mid{
+    width: 15%;
+}
 
 /* ajustes pra campos que ocupam duas colunas (sozinhos*/
 .full-width {
@@ -108,5 +115,3 @@ button[type="submit"]:last-of-type {
 button[type="submit"]:last-of-type:hover {
     background-color: #c82333;
 }
-
-

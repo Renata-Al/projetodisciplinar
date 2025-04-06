@@ -5,7 +5,7 @@ import '../style/assistencia.css'
 const Assistencia=()=>{
     return(
         <div className="main-cont">
-            <form>
+            <form className="form-alt">
         <div className="containe">
         <h3 className="titulo">Questionário Socioeconômico</h3>
         <hr color="#d9d9d9" height="1px"></hr>
@@ -409,7 +409,10 @@ const Assistencia=()=>{
         </div>
         
             </div>
-            <button type="submit" id="btnvv">Enviar</button>
+            <div className="button-container">
+            <button type="submit">Enviar</button>
+            <button type="submit">Cancelar</button>
+            </div>
             </form>
         </div>
     );

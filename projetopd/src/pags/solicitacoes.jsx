@@ -3,9 +3,9 @@ import '../style/solicitacoes.css'
 
 const Solicitacoes=()=>{
     return(
-        <div className="main-cont">
-            <form>
-        <div className="containe">
+        <div className="principal-duvidas">
+            <form className="form-alt">
+        <div className="containe-duvidas">
             <h3 className="titulo">Solicitações e Dúvidas</h3>
             <label>Discente:<input type="text" required></input></label>
             <label>
@@ -27,8 +27,7 @@ const Solicitacoes=()=>{
             <label className="full-width">Digite aqui sua solicitação ou dúvida:<textarea required></textarea></label>
             
             <div class="button-container"> 
-                    <button type="submit">Salvar</button>
-                    <button type="submit">Alterar</button>
+                    <button type="submit">Enviar</button>
                     <button type="submit">Cancelar</button>
                 </div>
         </div>

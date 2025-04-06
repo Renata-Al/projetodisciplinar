@@ -4,20 +4,23 @@ import '../style/disciplinar.css'
 const Disciplinar=()=>{
     return(
         <div className="main-contai">
-        <form>
+        <form className="form-alt">
             <div className="containerr">
                 <h3 className="titulo">Registro de Ocorrência Disciplinar</h3>
                 <hr color="#d9d9d9" height="1px"></hr>
                 
                 <label>Servidor:<input type="text" required></input></label>
                 <label>Aluno(s) envolvidos:<input type="text" required></input></label>
-                
-                <label class="full-width">
+                <label>Número de matrícula:<input type="text" required></input></label>
+                <label>
                     Curso:
                     <select name="curso" required>
                         <option value="">Selecione</option>
                         <option value="admin">Administração</option>
                         <option value="info">Informática</option>
+                        <option value="subs-adm">Administração Subsequente</option> 
+                    <option value="subs-info">Informática Subsequente</option>
+                    <option value="subs-sec">Secretariado Subsequente</option>
                     </select>
                 </label>
                 

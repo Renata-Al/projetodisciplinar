@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -8px;
+    margin: 0 auto;
     padding: 20px;
     border:  1px solid #ccc;
     border-radius: 9px;
@@ -14,9 +14,12 @@
 .form-group {
     margin-bottom: 15px;
     padding: 10px;
-    background: #f0f0f0;
+    background-color: #d2e9da;
     border-radius: 5px;
   }
+  .form-alt{
+    max-width: 800px;
+}
   
   .containe{
     display: grid;
@@ -47,7 +50,7 @@ label {
     flex-direction: column;
     gap: 5px;
     font-size: 14px;
-    color: #555;
+    color: #333;
 }
 
 input[type="text"],
@@ -85,9 +88,23 @@ button {
     transition: background-color 0.3s;
 }
 
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+}
+button[type="submit"] {
+    background-color: #28a745;
+}
+button[type="submit"]:hover {
+    background-color: #218838;
+}
 
+button[type="submit"]:last-of-type {
+    background-color: #dc3545;
+}
 
-#btnvv {
-    padding: 15px;
-    background-color: #325c32;
+button[type="submit"]:last-of-type:hover {
+    background-color: #c82333;
 }

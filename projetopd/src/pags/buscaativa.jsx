@@ -4,13 +4,13 @@ import '../style/busca.css'
 const BuscaAtiva=()=>{
     return(
         <div className="main-contai">
-        <form>
+        <form className="form-alt">
             <div className="containe">
                 <h3 className="titulo">Busca Ativa</h3>
                 <hr color="#d9d9d9" height="1px"></hr>
                 
                 <label>Aluno:<input type="text" required></input></label>
-                <label>Matricula:<input type="text" required></input></label>
+                <label>Matrícula:<input type="text" required></input></label>
                 <label>Data:<input type="date"></input></label>
 
                 <label>
@@ -31,7 +31,7 @@ const BuscaAtiva=()=>{
                 
                 <label>Numero de Telefone:<input type="text" required></input></label>
                 <label>E-mail:<input type="text" required></input></label>
-                <label className="full-width">Endereço:<input type="text"></input></label>
+                <label className="full-width">Endereço:<input type="text" placeholder="Ex.: Avenida ou Rua, nº 111, Bairro - Casa. CEP: 40000-000"></input></label>
 
                 <label class="full-width"> 
                     Justificativa:<textarea></textarea>

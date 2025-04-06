@@ -49,14 +49,15 @@
 .if{
     height: 120px;
     max-width: 120px;
-    
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 .pesquisa{
     border: 3px solid #333;
     border-radius: 10px;
     width: 250px;
     height: 30px;
-    background-color: rgba(128, 128, 128, 0.425);
+    background-color: rgba(161, 161, 161, 0.425);
     font-family: Jura;
     margin-top: 8px;
     margin-bottom: 20px;

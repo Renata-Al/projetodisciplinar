@@ -39,8 +39,8 @@ body {
 }
 #twotitle{
     color: #345e36;
-    border-bottom: 2px solid #345e3a;
     padding-bottom: 10px;
+    padding-top: 30px;
     text-align: center;
 }
 p{
@@ -73,6 +73,6 @@ p{
     text-align: center;
     margin-top: 30px;
     padding: 20px;
-    background-color: #ecf0f1;
+    background-color: #d2e9da;
     border-radius: 5px;
 }

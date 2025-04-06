@@ -28,7 +28,7 @@ const Dropdown = () => {
           <div className="sub-menu">
             <Link to="/Atendimento" onClick={CloseMenu}>Atendimento ao Discente</Link>
             <Link to="/BuscaAtiva" onClick={CloseMenu}>Busca Ativa</Link>
-            <Link to="/Ocorrencia" onClick={CloseMenu}>Justificativa</Link>
+            <Link to="/Justificativa" onClick={CloseMenu}>Justificativa</Link>
             <Link to="/Disciplinar" onClick={CloseMenu}>Registro de Ocorrência</Link>
             <Link to="/Solicitacoes" onClick={CloseMenu}>Solicitações e Dúvidas</Link>  
           </div>
