@@ -4,6 +4,7 @@ import logo from '../imagens/logovertical.png'
 
 const Home=()=>{
     return(
+        <div>
         <div className="main">
         <div className="main-container">
             <div className="container">
@@ -24,6 +25,7 @@ const Home=()=>{
                 <hr></hr>
                 <p className="information">A <strong>Coordenação de Acompanhamento ao Educando (CAE)</strong> é responsável pelos processos de organização administrativa que envolvem a coordenação das atividades de ensino, planejamento e orientação, supervisionando e avaliando estas atividades para assegurar a regularidade do desenvolvimento do processo educativo.</p>
             </div>
+        </div>
         </div>
         </div>
     );

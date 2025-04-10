@@ -51,7 +51,7 @@ const Dropdown = () => {
         Gerenciar
         {abrirmenu === "gerenciar" && (
           <div className="sub-menu">
-            <Link to="/Gerenciar" onClick={CloseMenu}>Cadastro do Agente</Link>
+            <Link to="/CadastroCAE" onClick={CloseMenu}>Cadastro do Agente</Link>
           </div>
         )}
       </div>

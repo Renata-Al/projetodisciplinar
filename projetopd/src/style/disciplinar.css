@@ -33,7 +33,7 @@ form{
 .titulo{
     grid-column: span 2; /* título que ocupa duas colunas */
     text-align: center;
-    color: #325c32;
+    color: #41A24D;
     margin-bottom: 10px;
 }
 

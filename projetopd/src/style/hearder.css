@@ -15,6 +15,18 @@
     align-items: center;
     margin: 10px;
 }
+.menu-login{
+    color: #0e0d0d;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.menu-login a {
+    color: #0e0d0d;
+    font-weight: bold;
+    text-decoration: none;
+}
 .above{
     color: #41A24D;
     font-size: 15px;

@@ -1,4 +1,4 @@
-.main-cont{
+.main-cadastro{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,17 +6,17 @@
     padding: 20px;
     border:  1px solid #ccc;
     border-radius: 9px;
-    max-width: 1200px;
+    max-width: 600px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     background-color: #f9f9f9;
 }
-.containe{
+.container-cadastro{
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* duas colunas*/
-    gap: 15px; /* espaço campos */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px; 
 }
-.form-alt{
-    max-width: 800px;
+.form-cadastro{
+    max-width: 400px;
 }
 form{
     width: 100%;

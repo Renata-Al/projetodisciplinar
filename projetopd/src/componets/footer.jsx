@@ -18,7 +18,7 @@ function Footer() {
             <h4>Info</h4>
             <ul>
                 <li><a href="#">Termos e Condições de Uso</a></li>
-                <li><a href="#">Aviso de Privacidade e Proteção de Dados Pessoais</a></li>
+                <li><a href="#">Aviso de Privacidade</a></li>
             </ul>
         </div>
         <div class="footer-section">
@@ -31,7 +31,7 @@ function Footer() {
             </div>
         </div>
         <div class="copyright">
-            Copyright © 2025 - Direito - Renata Albuquerque. IFAM - Campus Iranduba
+            Copyright © 2025 - Renata Albuquerque. IFAM - Campus Iranduba
         </div>
     </footer>
   );
