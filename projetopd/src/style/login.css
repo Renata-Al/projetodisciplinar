@@ -16,10 +16,27 @@
     gap: 15px; 
 }
 .form-cadastro{
-    max-width: 400px;
+    max-width: 300px;
 }
 form{
     width: 100%;
+}
+#butao{
+    color: blue;
+    background-color: #f9f9f9;
+    padding: 2px;
+
+}
+#container-forget{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+#edit{
+    margin-top: 10px;
+    color: #333;
+    font-size: small;
+    font-style: italic;
 }
 hr{
     grid-column: span 2; /*  linha quu ocupa duas colunas */

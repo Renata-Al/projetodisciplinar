@@ -12,12 +12,17 @@ const CadastroCAE=()=>{
                 <label className="full-width">Nome Completo:<input type="text" required></input></label>
                 <label className="full-width">SIAPE:<input type="text" required></input></label>
                 <label className="full-width">Email:<input type="text" required></input></label>            
-                <label className="full-width">Campus:<input type="text" required></input></label>
+                {/*<label className="full-width">Campus:<input type="text" required></input></label>*/}
+                <label className="full-width">Senha:<input type="password" required></input></label>
                 
                 <div class="button-container"> 
                     <button type="submit">Cadastrar</button>
                     <button type="submit">Alterar</button>
                     <button type="submit">Cancelar</button>
+                </div>
+                <div id="container-forget">
+                <p>Já tem uma conta?</p>
+                <button type="submit" id="butao">Login</button>
                 </div>
             </div>
         </form>

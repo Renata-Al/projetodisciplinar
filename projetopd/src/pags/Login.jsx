@@ -16,8 +16,14 @@ const Login=()=>{
                     <button type="submit">Login</button>
                     <button type="submit">Cancelar</button>
                 </div>
+                <div id="container-forget">
+                <p>Esqueceu senha? </p>
+                <button type="submit" id="butao">Recuperar senha</button>
+                </div>
             </div>
+            
         </form>
+        <p id="edit">Copyright © 2025 - Renata Albuquerque. IFAM - Campus Iranduba</p>
     </div>
     );
 };
