@@ -56,7 +56,10 @@ textarea {
     width: 100%;
     box-sizing: border-box;
 }
-
+.cadlogin{
+    width: 70%;
+    margin-left: 100px;
+}
 textarea {
     resize: vertical;
     min-height: 80px; /*menor altura para textareas */

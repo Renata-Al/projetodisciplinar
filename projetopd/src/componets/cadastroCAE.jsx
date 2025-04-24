@@ -1,11 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import '../style/cadastroCAE.css'
+import Cadlogo from '../imagens/if-lateralnormal.png'
 
 const CadastroCAE=()=>{
+     const [abrirmenu, setabrirmenu] = useState(null);
+        
+          const Menu = (menu) => {
+            setabrirmenu(abrirmenu === menu ? null : menu);
+          }; // função para abrir o menu
+        
+          const CloseMenu = () => {
+            setabrirmenu(null);
+          }; // função para fechar o menu
     return(
         <div className="main-cadastro">
         <form className="form-cadastro">
             <div className="container-cadastro">
+              
+              <img className="cadlogin" src={Cadlogo}></img>
                 <h3 className="titulo">Cadastro de Agente CAE</h3>
                 <hr color="#d9d9d9" height="1px"></hr>
     
@@ -22,7 +35,11 @@ const CadastroCAE=()=>{
                 </div>
                 <div id="container-forget">
                 <p>Já tem uma conta?</p>
-                <button type="submit" id="butao">Login</button>
+                <div className="butao">
+                <Link to="/Login" onClick={CloseMenu}>
+                <h4>(Login)</h4>
+                </Link>
+              </div>
                 </div>
             </div>
         </form>

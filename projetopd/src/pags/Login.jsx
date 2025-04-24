@@ -1,11 +1,13 @@
 import React from "react";
 import '../style/login.css'
+import loginlogo from '../imagens/if-lateralnormal.png'
 
 const Login=()=>{
     return(
-        <div className="main-cadastro">
-        <form className="form-cadastro">
-            <div className="container-cadastro">
+        <div className="main-login">
+        <form className="form-login">
+            <div className="container-login">
+                <img className="logologin" src={loginlogo}></img>
                 <h3 className="titulo">Login</h3>
                 <hr color="#d9d9d9" height="1px"></hr>
     

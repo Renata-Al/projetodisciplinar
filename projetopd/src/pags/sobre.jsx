@@ -59,12 +59,13 @@ const Sobre=()=>{
                 <p>desouzajuliocesar339@gmail.com</p>
             </div>
         </div>
-
+{/*
         <div class="contact">
             <h2>Contato</h2>
             <p>Para mais informações, entre em contato conosco através do email:</p>
             <p><strong>sandra.duque@ifam.edu.br</strong></p>
         </div>
+        */}
     </div>
     );
 };
